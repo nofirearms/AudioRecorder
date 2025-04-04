@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AudioRecorder", "AudioRecorder\AudioRecorder.csproj", "{9E5D6D1C-5B76-48B0-8B05-D5246EB90569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AudioRecorder.Tests", "AudioRecorder.Tests\AudioRecorder.Tests.csproj", "{2E1872F4-E652-41AF-A779-BD213194A58C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E5D6D1C-5B76-48B0-8B05-D5246EB90569}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E5D6D1C-5B76-48B0-8B05-D5246EB90569}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E5D6D1C-5B76-48B0-8B05-D5246EB90569}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E5D6D1C-5B76-48B0-8B05-D5246EB90569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1872F4-E652-41AF-A779-BD213194A58C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1872F4-E652-41AF-A779-BD213194A58C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1872F4-E652-41AF-A779-BD213194A58C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1872F4-E652-41AF-A779-BD213194A58C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {324E3A9D-74A8-4A62-AD6E-B31D3BF518AC}
+	EndGlobalSection
+EndGlobal
