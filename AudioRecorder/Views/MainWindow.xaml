@@ -13,6 +13,7 @@
     d:DataContext="{d:DesignInstance vm:MainWindowViewModel}"
     ResizeMode="NoResize"
     Style="{StaticResource MaterialDesignWindow}"
+    WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
     <Grid>
         <local:RecorderView DataContext="{Binding RecorderViewModel}" />

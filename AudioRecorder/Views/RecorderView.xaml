@@ -216,7 +216,7 @@
                             x:Name="OpenFileButton"
                             materialDesign:RippleAssist.IsDisabled="True"
                             Command="{Binding OpenAudioFileCommand}"
-                            IsEnabled="False"
+                            IsEnabled="True"
                             Style="{StaticResource CustomSquareButton}"
                             ToolTip="Open audio">
                             <Grid>

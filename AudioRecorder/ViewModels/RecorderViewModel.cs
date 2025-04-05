@@ -332,22 +332,6 @@ namespace AudioRecorder.ViewModel
             {
                 return;
             }
-            else if (State == AudioState.Default)
-            {
-                return;
-            }
-            else if (State == AudioState.Play)
-            {
-                return;
-            }
-            else if (State == AudioState.Pause)
-            {
-
-            }
-            else if (State == AudioState.Stop)
-            {
-
-            }
 
             _playerRecorder.StopPlayback();
 
@@ -359,7 +343,7 @@ namespace AudioRecorder.ViewModel
             }
             else
             {
-                return ;
+                return;
             }
         });
 
